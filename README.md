@@ -2,6 +2,11 @@
 
 2026년 K-Petro 대국민 혁신 아이디어 공모전(AI·데이터 혁신) 출품작 「오일손」의 인터랙티브 아이소메트릭 작동 모형입니다.
 
+**라이브 데모 — https://jackdinealkim.github.io/kpetro-oilson-anatomy/**
+
+Pages 소스는 **`gh-pages` 브랜치 / (root)** 이고, `main`은 원본 소스 브랜치입니다.
+수정 후에는 `git push origin main && git push origin main:gh-pages` 로 함께 올립니다.
+
 - `index.html` — 단일 파일. 설치·외부 라이브러리 없이 브라우저에서 열립니다.
 - 마우스를 올리면 ①안내 · ②지원 · ③신고 채널이 하나씩 밝아지고, 클릭하면 앞면 패널과 하우징, 상단 커버가 분해됩니다.
 - 키보드: `E` 분해·조립, `1` `2` `3` 채널 선택, `L` 밝은/어두운 테마, `Esc` 선택 해제.
